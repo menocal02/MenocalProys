@@ -6,6 +6,7 @@ namespace WebAppEstefanMenocal.Controllers
     {
         public IActionResult Index()
         {
+            var s = 0;
             return View();
         }
     }
